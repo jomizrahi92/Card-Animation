@@ -60,7 +60,7 @@ html, body {
 
 .container .bubble-left {
 	margin-right: 20px;
-	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
 	float: left;
 	background: #2ecc71;
 }
@@ -93,8 +93,18 @@ html, body {
 .container .bubble-left:after {
 	border-width: 10px 10px 0 0;
 	left: -10px;
+	bottom: 30px;
 	border-color: transparent #2ecc71;
+	transform: rotate( 270deg );
 }
+
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
 @-webkit-keyframes bounceInLeft {
   0%, 60%, 75%, 90%, 100% {
     -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
