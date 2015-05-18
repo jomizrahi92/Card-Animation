@@ -90,6 +90,9 @@ html, body {
 	*/
 	background: rgb(113,91,119);
 	float: right;
+	width: 255px;
+	height: 56px;
+	color: #fff;
 }
 
 .bubble--alt:before {
