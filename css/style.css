@@ -36,8 +36,7 @@ html, body {
 	min-height: 200px;
 	max-height: 250px; 
 	border-radius: 4px 4px 0 0;
-	background: #fff;
-	background: rgba(255, 255, 255, 0.5);
+	background: rgb(245, 239, 231);
 	margin-bottom: 0;
 	padding: 20px;
 	overflow-y: scroll;
@@ -62,7 +61,8 @@ html, body {
 	margin-right: 20px;
 	border-top-left-radius: 0;
 	float: left;
-	background: #2ecc71;
+	background: #fff;
+	color: rgb(35,0,35);
 }
 
 .container .bubble-right {
@@ -94,7 +94,7 @@ html, body {
 	border-width: 10px 10px 0 0;
 	left: -10px;
 	bottom: 30px;
-	border-color: transparent #2ecc71;
+	border-color: transparent #fff;
 	transform: rotate( 270deg );
 }
 
