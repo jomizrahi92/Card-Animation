@@ -89,7 +89,9 @@
               </div>
               <div class="col-xs-12 removepadding">
 				  	<div class="map animated zoomIn">
-						<div id='gmap_canvas' style='height:400px;width:520px;'></div>
+						<div id='gmap_canvas'></div>
+						<p>Here are the nearest ATMs nearby</p>
+						<a class="btn btn-default" href="#" role="button">Navigate</a>
 					</div>
               </div>
 		  </div>
@@ -109,8 +111,8 @@
 			marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.603996,-73.959654)});
 			infowindow = new google.maps.InfoWindow({
 			content:'<strong></strong><br>'+
-			'1860 East 13th st.<br>'+
-			'11223 Brooklyn<br>'
+			'My House<br>'+
+			'11229 Brooklyn<br>'
 		});
 		google.maps.event.addListener(marker, 'click', function(){
 			infowindow.open(map,marker);
