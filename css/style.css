@@ -114,17 +114,55 @@ html, body {
 }
 
 .container .info .tophalf {
-	height: 100px;
+	padding: 10px;
+	height: 150px;
 	background-color: rgb(245,159,10);
+	color: #000;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.container .info .tophalf span {
+	color: #fff;
+}
+
+.container .info .profilepic {
+	position: absolute;
+	left: 0;
+	top: 44%;
+	transform: translateY(-50%);
+	right: 0;
+	text-align: center;
 }
 
 .container .info .bottomhalf {
-	height: 100px;
+	padding: 5px;
+	padding-top: 20px;
+	height: 175px;
 	background-color: #fff;
+	font-size: 14px;
+}
+
+.container .info .bottomhalf p {
+	margin: 0;
+}
+
+.container .info .bottomhalf table tr {
+	border: none;
+	display: inline;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	border: none;
+	padding: 3px;
 }
 
 .container .map {
 	width: 100%;
 	background-color: #fff;
 	color: #000;
+	overflow:hidden;
+	height:250px;
+	width:100%;
 }
+.container .map #gmap_canvas img{max-width:none!important;background:none!important}
