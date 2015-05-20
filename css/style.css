@@ -31,16 +31,13 @@ html, body {
 }
 
 .container .bubble {
-	position: relative;
 	min-height: 40px;
 	padding: 10px;
-	border-radius: 4px;
 	margin-bottom: 10px;
 	clear: both;
 }
 
 .container .bubble-left {
-	margin-right: 20px;
 	border-top-left-radius: 0;
 	float: left;
 	background: #fff;
@@ -48,21 +45,16 @@ html, body {
 }
 
 .container .bubble-right {
-	margin-left: 20px;
 	border-bottom-right-radius: 0;
 	float: right;
 	background: rgb(113,91,119);
 }
 
-.container .bubble-left:after,
-.container .bubble-right:after {
+.container .bubble-left:after, .container .bubble-right:after {
 	content: '';
 	position: absolute;
 	border-style: solid;
-	display: block;
-	width: 0;
 	z-index: 1;
-	margin-top: -10px;
 	bottom: 0;
 }
 
